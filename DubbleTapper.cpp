@@ -100,6 +100,12 @@ int main(){
 }
 
 void event_duble_tap(){
+    if(w_pressed == true && s_pressed == true){
+        return;
+    } // these stop from dashing when opsite keys are pressed// you can still do the dash but u have to switch to new key press// this makes things work better in deadlock
+    if(a_pressed == true && d_pressed ==true){
+        return;
+    }
     runingtime_press_timer_target = running_time+(doubletaptimmer*1.7);
     printf("sprint button at running time of:: %f \n", running_time);
     XTestFakeKeyEvent(disp_server, 51, true, 0);
