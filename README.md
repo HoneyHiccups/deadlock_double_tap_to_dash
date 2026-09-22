@@ -20,3 +20,4 @@ I have thought about checking to see if a dash would be valid
 cuss right now u can just hold d and duble tap a to dash in d direction however as of know I will not be doing anything to check if that should or not should not be allowed 
 this is basically abandon ware as of today as I only really made it for my personal use to make playing deadlock better for myself
 
+At some point I might add a windows version tho, I hate being in windows so maybe not
